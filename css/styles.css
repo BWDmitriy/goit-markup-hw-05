@@ -466,6 +466,7 @@ transform: translateY(0%);
     border:2px solid black;
     margin: auto auto;
     padding: 24px;
+    /* position: absolute; */
 }
 .contact-form-div {
     display: flex;
@@ -563,4 +564,9 @@ transform: translateY(0%);
     letter-spacing: 0.04em;
     justify-content: center;
     margin-top: 16px;
+}
+.backdrop-section {
+    position: relative;
+    width: 1440px;
+    height: 600px;
 }
