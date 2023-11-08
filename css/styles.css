@@ -491,6 +491,7 @@ transform: translateY(0%);
 .contact-form-label {
     color: #8E8F99;
     font-size: 12px;
+    position: relative;
 }
 .contact-form-input {
     width: 100%;
@@ -535,6 +536,9 @@ transform: translateY(0%);
     padding: 8px;
     text-indent: 8px;
     resize: none;
+}
+.contact-form-textarea:focus {
+    color: rgb(67, 68, 85);
 }
 .contact-form-link {
     color: #4D5AE5;
@@ -608,4 +612,11 @@ transform: translateY(0%);
     --color2: #404BBF;
     --color1: #FFFFFF;
     --color3: #FFFFFF;
+}
+
+.contact-form-label svg {
+    position: absolute;
+    left: 15px;
+    top: 25px;
+    bottom: 0;
 }
