@@ -694,13 +694,11 @@ transform: translateY(0%);
 .input-icon:focus {
     fill: #4D5AE5;
 }
+.contact-form-input:focus+.input-icon {
+    fill: #4D5AE5;
 
-/* .contact-form-label svg {
-    position: absolute;
-    left: 15px;
-    top: 25px;
-    bottom: 0;
-}  */
+}
+
 .ml-sixteen {
     margin-left:16px;
 }
