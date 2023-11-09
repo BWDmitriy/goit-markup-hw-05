@@ -650,20 +650,11 @@ transform: translateY(0%);
     border: none;
     fill:#F4F4FD;
 }
-#user-privacy .contact-form-checkbox-label-span {
+.contact-form-checkbox-input:checked .checkbox-icon {
     background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
 }
-.checkbox-icon {
-    
-}
-.contact-form-checkbox-input {
-
-} 
-/* .visually-hidden {
-
-} */
 
 .contact-form-button {
     width: 169px;
