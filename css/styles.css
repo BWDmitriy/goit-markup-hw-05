@@ -645,17 +645,11 @@ transform: translateY(0%);
     justify-content: center;
     fill: transparent;
 }
-.contact-form-checkbox-input:checked .contact-form-checkbox-label-span {
+.contact-form-checkbox-input:checked+.contact-form-checkbox-label > .contact-form-checkbox-label-span {
     background-color: #404bbf;
     border: none;
     fill:#F4F4FD;
 }
-.contact-form-checkbox-input:checked .checkbox-icon {
-    background-color: #404bbf;
-    border: none;
-    fill: #F4F4FD;
-}
-
 .contact-form-button {
     /* width: 169px;
     display: inline-flex;
@@ -705,3 +699,4 @@ transform: translateY(0%);
 .ml-sixteen {
     margin-left:16px;
 }
+
