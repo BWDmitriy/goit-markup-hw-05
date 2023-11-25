@@ -567,7 +567,6 @@ transform: translateY(0%);
 .contact-form-label {
     color: #8E8F99;
     font-size: 12px;
-    /* position: relative; */
     line-height: 1.17;
     letter-spacing: 0.04em;
     display: block;
